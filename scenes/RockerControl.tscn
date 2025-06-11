@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://p52ej32l5o3x"]
+
+[ext_resource type="Texture2D" uid="uid://bwc7cggb3hwqx" path="res://assets/sprites/mobile/idle.png" id="1_52kvj"]
+
+[sub_resource type="GDScript" id="GDScript_52kvj"]
+script/source = "extends Control
+"
+
+[node name="MobileControls" type="Control"]
+layout_mode = 3
+anchor_top = -0.026
+anchor_right = 0.047
+anchor_bottom = 0.062
+offset_left = 1.0
+offset_top = 0.848
+offset_right = 0.855999
+offset_bottom = 0.823997
+script = SubResource("GDScript_52kvj")
+
+[node name="ControlTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.593
+anchor_top = 8.544
+anchor_right = 3.176
+anchor_bottom = 10.944
+offset_left = -0.0220032
+offset_top = -0.00802612
+offset_right = -0.00401306
+offset_bottom = -0.00793457
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_52kvj")

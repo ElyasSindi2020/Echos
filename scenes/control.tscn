@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://p81bqy012ngl"]
+
+[ext_resource type="Script" uid="uid://di3hnkc0si8uu" path="res://scripts/MobileControls.gd" id="2_brbbq"]
+[ext_resource type="PackedScene" uid="uid://p52ej32l5o3x" path="res://scenes/RockerControl.tscn" id="2_r67kn"]
+
+[node name="MobileControls" type="CanvasLayer"]
+script = ExtResource("2_brbbq")
+
+[node name="MobileControls" parent="." instance=ExtResource("2_r67kn")]
